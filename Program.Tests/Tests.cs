@@ -9,7 +9,8 @@ namespace Program.Tests
         [Test]
         public void Test1()
         {
-            Assert.True(true);
+            int t = Program.Sum(2, 3);
+            Assert.AreEqual(5, t);
         }
     }
 }
